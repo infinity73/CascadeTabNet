@@ -6,7 +6,7 @@ import lxml.etree as etree
 import glob
 
 ############ To Do ############
-image_path = '/content/CascadeTabNet/Demo/images'
+image_path = '/content/CascadeTabNet/Demo/images/*.png'
 xmlPath = '/content/CascadeTabNet/Demo/'
 
 config_fname = '/content/CascadeTabNet/Config/cascade_mask_rcnn_hrnetv2p_w32_20e.py'
